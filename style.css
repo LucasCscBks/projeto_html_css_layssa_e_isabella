@@ -1,12 +1,99 @@
 html {
-    background-color: rgb(255,255,0);
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0,0.9) 50%,
+        rgba(255, 255, 0,0.9) 50%
+      );
+    }
+body {
+    box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.9);
+    height: 65vh;
+    width: 50;
+    margin: 100px;
     
 }
-body {
-    background-color: black;
-    height: 660px;
-    width: 675px;
-    margin: 0;
+#superior_esquerdo {
+    color: yellow;
+    font-family: impact, fantasy;
+    font-style: italic;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid red;
+    width: 100px;
+    display: inline-block;
 }
+#superior_esquerdo2 {
+    letter-spacing: 3px;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+#nav1 {
+    color: black;
+    display: inline-block;
+    border: solid 2px blue;
+    margin-top: 10px;
+    vertical-align:top;
+    text-align: right ;
+    padding-right: 2px;
+    word-spacing: 70px;
+    width: 74vw;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+}
+.links1 {
+    color: black;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.9);
+    text-decoration: none;
 
+}
+.links1:hover {
+    color: blue;
+    font-size: 18px;
+}
+#minha_figura {
+    border: 1px solid red;
+    height: 40vh;
+    width: 30vw;
+    margin-left: 258px;
+    background-image: url(imagens/wolverine_great-removebg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: inline-block;
+}
+#canto_direito {
+    display: inline-block;
+    writing-mode: vertical-rl ;
+    border: 2px blue solid;
+    height: ;
+    width: 200px;
+    text-align: end;
+    
+}
+#paragrafo_grande {
+    display: inline-block;
+    font-weight: 900;
+    font-size: 30px;
+    font-style: italic;
+    border: brown solid 2px;
+    vertical-align: top;
+}
+#cor_da_linha {
+    color: black;
+    font-weight: 900;
+}
+.cor_do_numero {
+    color: blue;
+    font-weight: 900;
+}
+#links_footer {
+    word-spacing: 70px;
+    height: ;
+    width: ;
+    border: blue solid 2px;
+}
+.links2 {
 
+}
